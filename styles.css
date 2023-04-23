@@ -131,7 +131,7 @@ hr {
 
 @media (max-width: 768px) {
     .container-fluid {
-        padding: 18% 15% 15% 15%;
+        padding: 20% 15% 15% 15%;
     }
 
     hr {
@@ -141,6 +141,12 @@ hr {
 
     .dots {
         top: 1.5rem;
+    }
+
+    .profile {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
     }
 
     .line {
