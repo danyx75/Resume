@@ -4,6 +4,10 @@
     font-family: "Montserrat", sans-serif;
 }
 
+h1, h2 {
+    text-transform: uppercase;
+}
+
 /* Header */
 
 .header {
@@ -28,6 +32,7 @@
     right: 0;
     width: 100%;
     background: linear-gradient(90deg, #242020, #737373);
+    z-index: 2;
 }
 
 nav {
@@ -49,6 +54,7 @@ nav {
     font-family: 'Ubuntu', sans-serif;
     font-size: 2rem;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .logo:hover,
@@ -93,7 +99,7 @@ h1 {
 }
 
 .line {
-    border: 1px solid ;
+    border: 3px solid ;
     width: 8rem;
     color: white;
 }
@@ -109,18 +115,44 @@ h1 {
 }
 
 hr {
-    color: #dfdfdf;
+    color: white;
+    border-style: none;
     border-width: 10px;
     width: 7%;
     border-top-style: dotted;
+    opacity: 1;
 }
 
 .line2 {
     margin-left: auto;
 }
 
+/* Education Section */
+
+.light-bg {
+    background-color: #D3D3D3;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+.dark {
+    color: #242020;
+}
+
+.edu-img {
+    width: 530px;
+}
+
 @media (max-width: 990px) {
-    .header {
+
+    body {
         text-align: center;
     }
 
@@ -130,13 +162,14 @@ hr {
 }
 
 @media (max-width: 768px) {
+
     .container-fluid {
         padding: 20% 15% 15% 15%;
     }
 
     hr {
         margin: 0 auto;
-        width: 15%;
+        width: 17%;
     }
 
     .dots {
@@ -160,5 +193,10 @@ hr {
 
     .nav-link::after {
         display: none;
+    }
+
+    .edu-img {
+        width: 300px;
+        padding: 1.5rem 0;
     }
 }
