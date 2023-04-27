@@ -1,11 +1,15 @@
 *, *::before, *::after {
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
 }
 
 h1, h2 {
     text-transform: uppercase;
+}
+
+section,
+footer {
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Header */
@@ -104,7 +108,7 @@ h1 {
 .line {
     border: 3px solid ;
     width: 8rem;
-    color: white;
+    color: #fff;
 }
 
 .column {
@@ -232,9 +236,20 @@ footer {
     text-align: center;
 }
 
-.social-icon {
+a.social {
+    display: inline-block;
     color: #fff;
-    width: 20px;
+    text-decoration: none;
+    padding: 1.5rem;
+    transition: transform .2s linear;
+}
+
+a.social:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    padding-right: 5px;
 }
 
 @media (max-width: 990px) {
@@ -245,6 +260,11 @@ footer {
 
     .line {
         display: none;
+    }
+
+    .right {
+        text-align: center;
+        margin-top: 2.5rem;
     }
 }
 
