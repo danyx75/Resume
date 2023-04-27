@@ -154,7 +154,7 @@ h4 {
 }
 
 .img {
-    width: 530px;
+    width: 100%;
 }
 
 /* Experience Section */
@@ -217,7 +217,7 @@ h4 {
 }
 
 #contact p {
-    font-size: clamp(.8rem, 1.5cqi, 1.2rem);
+    font-size: clamp(.7rem, 1.5cqi, 1.2rem);
 }
 
 .white-border {
@@ -252,7 +252,15 @@ a.social:hover {
     padding-right: 5px;
 }
 
+@media (max-width: 1260px) {
+
+}
+
 @media (max-width: 990px) {
+
+    .container-fluid {
+        padding-top: 15%;
+    }
 
     body {
         text-align: center;
@@ -309,5 +317,19 @@ a.social:hover {
 
     .right {
         text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .logo {
+        font-size: 1.7rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    .container-fluid {
+        padding-top: 25%;
     }
 }
