@@ -87,6 +87,7 @@ nav {
     width: 350px;
     height: 350px;
     border-radius: 50%;
+    border: 3px solid #fff;
 }
 
 h1 {
@@ -235,7 +236,7 @@ h4 {
 /* Footer Section */
 
 footer {
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
