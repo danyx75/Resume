@@ -28,6 +28,8 @@ footer {
     color: #dfdfdf;
 }
 
+/* Navbar section */
+
 .navbar {
     position: fixed;
     top: 0;
@@ -79,9 +81,7 @@ nav {
     transition: width 0.4s linear;
 }
 
-.container-fluid {
-    padding: 10% 15%;
-}
+/* Profile Section */
 
 .profile {
     width: 350px;
@@ -105,15 +105,10 @@ h1 {
     border-bottom: 3px solid #ff3632;
 }
 
-.line {
-    border: 3px solid ;
-    width: 8rem;
-    color: #fff;
-}
+/* All Containers section */
 
-.column {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.container-fluid {
+    padding: 10% 15%;
 }
 
 .dots {
@@ -130,15 +125,28 @@ hr {
     opacity: 1;
 }
 
+.line {
+    border: 3px solid ;
+    width: 8rem;
+    color: #fff;
+}
+
 .line2 {
     margin-left: auto;
 }
 
-/* Education Section */
+/* Background Section Colors */
 
 .light-bg {
     background-color: #D3D3D3;
 }
+
+.dark-bg {
+    background-color: #242020;
+    color: #fff;
+}
+
+/* Education Section */
 
 h2 {
     font-weight: 800;
@@ -158,11 +166,6 @@ h4 {
 }
 
 /* Experience Section */
-
-.dark-bg {
-    background-color: #242020;
-    color: #fff;
-}
 
 .right {
     text-align: end;
@@ -217,7 +220,7 @@ h4 {
 }
 
 #contact p {
-    font-size: clamp(.7rem, 1.5cqi, 1.2rem);
+    font-size: clamp(.8rem, 2cqi, 1.2rem);
 }
 
 .white-border {
@@ -250,10 +253,6 @@ a.social:hover {
 
 .icon {
     padding-right: 5px;
-}
-
-@media (max-width: 1260px) {
-
 }
 
 @media (max-width: 990px) {
@@ -326,10 +325,10 @@ a.social:hover {
     }
 
     body {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .container-fluid {
-        padding-top: 25%;
+        padding-top: 26.5%;
     }
 }
