@@ -88,7 +88,7 @@ nav {
     height: 350px;
     border-radius: 50%;
     border: 5px double transparent;
-    background-image: linear-gradient(white, white),
+    background-image: linear-gradient(transparent, transparent),
     linear-gradient(90deg, #ff0, #f0f, #f00, #00f, #0f0);
     border-image-slice: 1;
     background-origin: border-box;
